@@ -1,0 +1,5 @@
+name: PerlinGenerations
+api-version: 1.13
+main: me.monkey.Main
+author: TheBananasMonkey
+version: 1
