@@ -14,14 +14,6 @@ public class Main extends JavaPlugin implements Listener{
 
     	Bukkit.broadcastMessage("Plugin on");
     	Bukkit.getPluginManager().registerEvents(this,this);
-		/*BukkitTask e = Bukkit.getServer().getScheduler().runTaskLater(Main.this, new Runnable(){
-			public void run() {
-				
-			}
-    	},10);
-		this.getCommand("kit").setExecutor(new CommandKit());*/
-    	
-
     } 
     @Override
     public void onDisable() {
